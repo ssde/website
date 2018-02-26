@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SSDE</title>
+    {% load staticfiles %}
+    <link rel="shortcut icon" href="{% static 'images/SSDE.ico' %}" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'webapp/css/style.css' %}" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Hind+Siliguri|Julius+Sans+One|Jura|Montserrat|Quicksand|Text+Me+One">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body class="body font-square">
+    <div class="header" >
+        <div class="left">
+            <img src="{% static 'images/SSDE_Logo.png' %}" width="150px">
+        </div>
+        <div class="right;">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="/"><i class="fas fa-home"></i>&nbsp;|&nbsp;Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact"><i class="fas fa-envelope"></i></i>&nbsp;|&nbsp;Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about"><i class="fas fa-user"></i>&nbsp;|&nbsp;Qui&eacute;n soy?</a>
+                </li>
+              </ul>
+        </div>
+    </div>
+    <div class="content font-green">
+    {% block content %}
+    {% endblock %}	
+    </div>
+    <div class="footer">
+        <div class="left">
+            <a href="https://plus.google.com/112745118318236992054" target="_blank"><i class="fab fa-google-plus-g"></i></a>&nbsp;|&nbsp;
+            <a href="https://www.linkedin.com/in/jorge-rivera-50616632/" target="_blank"><i class="fab fa-linkedin-in"></i></a>&nbsp;|&nbsp;
+            <a href="https://twitter.com/jorian1" target="_blank"><i class="fab fa-twitter"></i></a>&nbsp;|&nbsp;
+            <a href="https://www.facebook.com/jorian1" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <div class="right">Copyright <i class="fas fa-copyright"></i> 2018 &nbsp;|&nbsp; Smart Software Development for Enterprises (SSDE)</div>
+    </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>

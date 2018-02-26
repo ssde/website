@@ -1,0 +1,135 @@
+/**
+ * font-family: 'Montserrat', sans-serif;       Rounded even
+ * font-family: 'Quicksand', sans-serif;        Rounded
+ * font-family: 'Hind Siliguri', sans-serif;    Oval high
+ * font-family: 'Julius Sans One', sans-serif;  Capitals same size
+ * font-family: 'Alegreya Sans SC', sans-serif; Capitals regular
+ * font-family: 'Text Me One', sans-serif;      Oval high lines
+ * font-family: 'Jura', sans-serif;             Squared
+ */
+
+.font-capitals1 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.font-capitals2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.font-square {
+    font-family: 'Jura', sans-serif;
+}
+
+.font-oval-lines {
+    font-family: 'Text Me One', sans-serif;
+}
+
+.font-oval {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.font-round-even {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-round {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.font-blue{
+    color: rgb(0, 0, 51);
+}
+
+.font-green {
+    color: rgb(35, 180, 35);
+}
+
+.font-red{
+    color: rgb(230, 0, 0);
+}
+
+.font-purple{
+    color: rgb(129, 0, 129);
+}
+
+.font-white{
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: currentColor;
+}
+
+a:visited {
+    color: currentColor;
+}
+
+a {
+    color: currentColor;
+}
+
+.body{
+    background-color:rgb(255, 255, 255); 
+    width:100%; 
+    margin:auto
+}
+
+.header{
+    text-align:center;
+    padding:15px;
+    position: fixed;
+/*    background-color:rgb(0, 0, 0);*/
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 51);
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+}
+
+body .content {
+    width:90%;
+    margin:auto;
+    top: 100px;
+    position: relative;
+    z-index: 0;
+}
+
+.footer {
+    padding: 15px;
+    position: fixed;
+    background-color: rgb(129, 0, 129);
+    color: rgb(255, 255, 255);
+    min-height: 50px;
+    bottom: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+.title {
+    padding: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float: right;
+}
+
+.contact-box {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;}
+
+.contact-box-info{
+    text-align: left;
+}
+
+.custom-background {
+    background: url(../images/custom-image.jpg);
+}
